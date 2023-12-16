@@ -10,6 +10,14 @@ public class BankAccount {
         return balance;
     }
 
+    public String getName(){
+        return name;
+    }
+
+    public double getMinBalance(){
+        return minBalance;
+    }
+
 
     public BankAccount(String name, double balance, double minBalance) {
         this.name = name;
